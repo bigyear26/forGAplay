@@ -29,11 +29,11 @@
 		"oAP": "\/checkout.html",
 		"oF": 0
 		},
-	"\/CNAME.txt": {
+	"\/CNAME": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/CNAME.txt",
+		"oAP": "\/CNAME",
 		"oF": 0
 		},
 	"\/index.html": {
