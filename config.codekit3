@@ -15,6 +15,22 @@
 		"oAP": "\/build\/.idea",
 		"oF": 0
 		},
+	"\/_head.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_head.html",
+		"oF": 0
+		},
+	"\/_head.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/_head.html",
+		"oF": 1,
+		"oS": 0
+		},
 	"\/build\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -35,6 +51,35 @@
 		"oA": 0,
 		"oAP": "\/CNAME",
 		"oF": 0
+		},
+	"\/img\/download.jpg": {
+		"ft": 16384,
+		"iS": 7661,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/download.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/includes\/foot.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/includes\/foot.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/includes\/head.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/includes\/head.html",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/index.html": {
 		"cB": 0,
@@ -72,6 +117,22 @@
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/test01.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/test01.html",
+		"oF": 0
+		},
+	"\/test01.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/test01.html",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/thanks.html": {
 		"cB": 0,
