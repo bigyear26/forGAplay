@@ -15,22 +15,6 @@
 		"oAP": "\/build\/.idea",
 		"oF": 0
 		},
-	"\/_head.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_head.html",
-		"oF": 0
-		},
-	"\/_head.pug": {
-		"cB": 0,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "\/_head.html",
-		"oF": 1,
-		"oS": 0
-		},
 	"\/build\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -87,7 +71,7 @@
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/includes\/head.html",
 		"oF": 0,
 		"oS": 0
@@ -95,8 +79,15 @@
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/payInfo.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/payInfo.html",
 		"oF": 0
 		},
 	"\/reg.html": {
