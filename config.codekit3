@@ -43,6 +43,29 @@
 		"oAP": "\/.well-known\/acme-challenge\/PacWQetXsiV1SknAZt8AdwgnTJC0OUFQ4J_fvDFT_TM",
 		"oF": 0
 		},
+	"\/_header": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_header",
+		"oF": 0
+		},
+	"\/_header.pug": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 1,
+		"oAP": "\/_header.html",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/_header.slim.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_header.slim.html",
+		"oF": 0
+		},
 	"\/build\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -147,6 +170,15 @@
 		"oA": 0,
 		"oAP": "\/test01.html",
 		"oF": 0
+		},
+	"\/test01.jade": {
+		"cB": 0,
+		"cOD": 1,
+		"ft": 512,
+		"oA": 0,
+		"oAP": "\/test01.html",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/test01.pug": {
 		"cB": 0,
