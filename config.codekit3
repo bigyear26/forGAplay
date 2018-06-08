@@ -15,6 +15,20 @@
 		"oAP": "\/build\/.idea",
 		"oF": 0
 		},
+	"\/.well-known.\/acme-challenge\/_TQdO6oyunvKocLxo5gOHODJxe3Cj2hTrrK-w-bM8ws": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/.well-known.\/acme-challenge\/_TQdO6oyunvKocLxo5gOHODJxe3Cj2hTrrK-w-bM8ws",
+		"oF": 0
+		},
+	"\/.well-known.\/acme-challenge\/PacWQetXsiV1SknAZt8AdwgnTJC0OUFQ4J_fvDFT_TM": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.well-known.\/acme-challenge\/PacWQetXsiV1SknAZt8AdwgnTJC0OUFQ4J_fvDFT_TM",
+		"oF": 0
+		},
 	"\/.well-known\/acme-challenge\/_TQdO6oyunvKocLxo5gOHODJxe3Cj2hTrrK-w-bM8ws": {
 		"cB": 0,
 		"ft": 8192,
@@ -41,13 +55,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/checkout.html",
-		"oF": 0
-		},
-	"\/CNAME": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/CNAME",
 		"oF": 0
 		},
 	"\/img\/download.jpg": {
