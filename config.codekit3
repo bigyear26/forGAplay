@@ -29,6 +29,13 @@
 		"oAP": "\/checkout.html",
 		"oF": 0
 		},
+	"\/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/CNAME",
+		"oF": 0
+		},
 	"\/img\/download.jpg": {
 		"ft": 16384,
 		"iS": 7661,
@@ -58,14 +65,21 @@
 		"oAP": "\/includes\/_bodyTag01.html",
 		"oF": 0
 		},
-	"\/includes\/_headB.pug": {
+	"\/includes\/_fbOgtag.pug": {
 		"cB": 0,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 1,
-		"oAP": "\/includes\/_headB.html",
+		"oAP": "\/includes\/_fbOgtag.html",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/includes\/_googleSearch.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/includes\/_googleSearch.html",
+		"oF": 0
 		},
 	"\/includes\/_headBasic.html": {
 		"cB": 0,
@@ -81,14 +95,12 @@
 		"oAP": "\/includes\/_headFBogtags.html",
 		"oF": 0
 		},
-	"\/includes\/fbOgtagtest.pug": {
+	"\/includes\/headFBogtags.html": {
 		"cB": 0,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 1,
-		"oAP": "\/includes\/fbOgtagtest.html",
-		"oF": 0,
-		"oS": 0
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/includes\/headFBogtags.html",
+		"oF": 0
 		},
 	"\/index.html": {
 		"cB": 0,

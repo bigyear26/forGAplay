@@ -7,18 +7,32 @@
 doctype html
 html(lang="en")
     head
-        include includes/_headBasic.html
-        include includes/fbOgtagtest
         title #{title}
+        |
+        |
+        include includes/_headBasic.html
+        include includes/_fbOgtag
     body
         include includes/_bodyTag01.html
-        h1 og實驗
-        h2 副標題
-        |
-        |
-        a.btn.btn-primary(role="button" href="reg.html") 開始註冊
-        |
-        |
-        a.btn.btn-primary(role="button" href="checkout.html") 開始結帳
+
+        div.jumbotron
+            h1.display-4 hello
+            p.lead hihi~
+            hr.my-4
+            p 說一些話
+            a.btn.btn-primary.btn-lg(role="button" href="reg.html") 開始註冊
+            |
+            |
+            a.btn.btn-primary.btn-lg(role="button" href="checkout.html") 開始結帳
+        div
+            //include includes/_googleSearch.html
         div.longBoard
-            p hi hi
+            p hi 一段文字
+
+//<div class="jumbotron">
+//<h1 class="display-4">Hello, world!</h1>
+//<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+//<hr class="my-4">
+//<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+//<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+//</div>
