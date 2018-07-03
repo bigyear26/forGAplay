@@ -24,7 +24,62 @@
 
 <button role="button" class="btn btn-primary">虛擬回首頁</button>
 <button role="button" class="btn btn-primary">虛擬註冊</button>
-<button role="button" class="btn btn-primary">虛擬結帳</button>
+<button id="checkOut" role="button" class="btn btn-primary">虛擬結帳</button>
+
+<script>
+    var check=document.getElementById("checkOut");
+    check.onclick=function () { alert("damn") }
+
+</script>
+
+
+<button id="plus1">點我加一</button>
+<input id="inputValue" value="wttttf">
+<h3 id="txt" style="font-size: 30px;color: #e66984">0</h3>
+
+<!--大一級-->
+<button id="big">點我大一級字</button>
+
+
+<!--小一級-->
+<button id="small">點我小一級字</button>
+
+
+<script>
+    var h3field=document.getElementById('txt');
+    var inputField=document.getElementById('inputValue');
+    // 區域
+    var btnplus=document.getElementById('plus1');
+
+
+
+
+    var index=0;
+    btnplus.onclick=function () {
+        index=index+1;
+        txt.innerHTML=index;
+        // 標籤中的所有東西
+        inputField.value=index;
+    };
+
+
+    // 按鈕
+    var big1=document.getElementById('big');
+    var small1=document.getElementById('small');
+    var h3size=16;
+    var h3size01=document.getElementById('txt').style.fontSize;
+
+    big1.onclick=function () {
+        // h3size=h3size+1;
+        // h3field.style.fontSize=h3size+'px';
+        console.log(h3size01);
+        // pfield.style
+    }
+
+
+
+</script>
+
 
 </body>
 </html>

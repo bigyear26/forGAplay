@@ -1,9 +1,3 @@
--var ogtitle='來實驗看看'
--var ogurl='www.aiisnewsexy'
--var ogimage='https://github.com/bigyear26/forGAplay/raw/gh-pages/img/download01.jpg'
--var ogdc='還沒弄啊啊啊啊啊啊'
--var title=ogtitle
-
 doctype html
 html(lang="en")
     head
@@ -12,11 +6,18 @@ html(lang="en")
         |
         include includes/_headBasic.html
         include includes/_fbOgtag
+        script(src="function01.js")
+            //下面是告訴你繁體中文版本網址是哪一個特定網址
+        link(rel=alternate hreflang="zh-tw" href='http://www.aiisnewsexy.com')
     body
         include includes/_bodyTag01.html
 
         div.jumbotron
-            h1.display-4 hello
+            h1.display-4 helloYO
+            a(href="test02.html") 到test02
+            a(href="#m01") 點我衝到錨點
+            a(onclick="m01();return false;") 點我更改毛點文字...
+
             p.lead hihi~
             hr.my-4
             p 說一些話
@@ -24,15 +25,13 @@ html(lang="en")
             |
             |
             a.btn.btn-primary.btn-lg(role="button" href="checkout.html") 開始結帳
+
+
+        div(itemscope itemtype="http://schema.org/Person")
+            h2(itemprop="name") 王家衛
+            p(itemprop='description') 他是一個非常好的導演
         div
             //include includes/_googleSearch.html
         div.longBoard
             p hi 一段文字ㄊ
-
-//<div class="jumbotron">
-//<h1 class="display-4">Hello, world!</h1>
-//<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-//<hr class="my-4">
-//<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-//<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-//</div>
+            a#m01.btn.btn-primary 錨點一

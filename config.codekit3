@@ -36,6 +36,26 @@
 		"oAP": "\/CNAME",
 		"oF": 0
 		},
+	"\/function01-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/function01-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/function01.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/function01-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/img\/download.jpg": {
 		"ft": 16384,
 		"iS": 7661,
@@ -155,21 +175,12 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/test01.html": {
+	"\/test02.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/test01.html",
+		"oAP": "\/test02.html",
 		"oF": 0
-		},
-	"\/test01.pug": {
-		"cB": 0,
-		"cOD": 1,
-		"ft": 512,
-		"oA": 0,
-		"oAP": "\/test01.html",
-		"oF": 0,
-		"oS": 0
 		},
 	"\/thanks.html": {
 		"cB": 0,
