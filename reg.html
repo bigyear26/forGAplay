@@ -31,5 +31,19 @@
 <a role="button" class="btn btn-primary" href="checkout.html">開始結帳</a>
 <a role="button" class="btn btn-primary" href="index.html">回首頁</a>
 
+<button class="btnTest" style="width: 100px;height: 100px">按我測試</button>
+<script>
+
+    var btn=document.querySelector('.btnTest');
+    // console.log(btn.textContent)
+    btn.onclick= function(e){
+        console.log(e);
+
+        console.log('我想看滑鼠的Ｘ軸是'+ e.clientX + 'Ｙ軸是'+e.clientY+'螢幕上是'+e.screenX);
+    }
+
+</script>
+
+
 </body>
 </html>
